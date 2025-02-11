@@ -38,7 +38,7 @@ const HeaderSection = () => {
         <h1 className="text-lg font-bold uppercase text-green-500">
           برای موفقیت پایدار، اهداف روزانه بچین
         </h1>
-        <h1 className="text-lg font-bold uppercase text-[#166c3a]">
+        <h1 className="text-lg font-bold uppercase text-[#136338]">
           لیست کن - انجامش بده - تیک بزن
         </h1>
       </div>

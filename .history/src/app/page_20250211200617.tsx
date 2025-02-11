@@ -32,13 +32,13 @@ const HeaderSection = () => {
   return (
     // <header className="w-full bg-[#041217] text-white sticky top-0 py-4 px-8 shadow-lg z-50">
       <div className="flex justify-between items-center max-w-5xl mx-auto flex-wrap gap-4">
-        <span className="text-5xl font-extrabold uppercase text-[#bc9b24]">
+        <span className="text-5xl font-extrabold uppercase text-[#D4AF40]">
           پیشرفت
         </span>
-        <h1 className="text-lg font-bold uppercase text-green-500">
+        <h1 className="text-lg font-bold uppercase text-green-300">
           برای موفقیت پایدار، اهداف روزانه بچین
         </h1>
-        <h1 className="text-lg font-bold uppercase text-[#166c3a]">
+        <h1 className="text-lg font-bold uppercase text-[#0f4a46]">
           لیست کن - انجامش بده - تیک بزن
         </h1>
       </div>

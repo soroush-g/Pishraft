@@ -35,10 +35,10 @@ const HeaderSection = () => {
         <span className="text-5xl font-extrabold uppercase text-[#bc9b24]">
           پیشرفت
         </span>
-        <h1 className="text-lg font-bold uppercase text-green-500">
+        <h1 className="text-lg font-bold uppercase text-green-400">
           برای موفقیت پایدار، اهداف روزانه بچین
         </h1>
-        <h1 className="text-lg font-bold uppercase text-[#166c3a]">
+        <h1 className="text-lg font-bold uppercase text-[#0f4a46]">
           لیست کن - انجامش بده - تیک بزن
         </h1>
       </div>
