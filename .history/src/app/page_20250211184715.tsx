@@ -28,7 +28,7 @@ async function Home() {
         <span className="lowercase">برای موفقیت پایدار، اهداف روزانه بچین</span>
       </h1>
 
-      <h1 className="text-1xl font-extrabold uppercase mb-8 text-center text-[#0f4a46]">
+      <h1 className="text-1xl font-extrabold uppercase mb-8 text-center text-[#0c3c17]">
         <span className="lowercase">لیست کن - انجامش بده - تیک بزن</span>
       </h1>
 
