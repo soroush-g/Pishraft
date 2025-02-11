@@ -42,7 +42,7 @@ const HeaderSection = () => {
           لیست کن - انجامش بده - تیک بزن
         </h1>
       </div>
-    // </header>
+    </header>
   );
 };
 

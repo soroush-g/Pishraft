@@ -30,7 +30,7 @@ async function Home() {
 
 const HeaderSection = () => {
   return (
-    // <header className="w-full bg-[#041217] text-white sticky top-0 py-4 px-8 shadow-lg z-50">
+     <header className="w-full bg-[#012E40] text-white sticky top-0 py-4 px-8 shadow-lg z-50">
       <div className="flex justify-between items-center max-w-5xl mx-auto flex-wrap gap-4">
         <span className="text-5xl font-extrabold uppercase text-yellow-500">
           پیشرفت
@@ -42,9 +42,9 @@ const HeaderSection = () => {
           لیست کن - انجامش بده - تیک بزن
         </h1>
       </div>
-    // </header>
-  );
-};
+    </header>
+  )
+}
 
 const TodoList = ({ data }) => (
   <div className="mt-6 w-[90%] md:w-[60%] lg:w-[40%] flex flex-col gap-4">
