@@ -30,25 +30,24 @@ async function Home() {
 
 const HeaderSection = () => {
   return (
-    <header className="w-full text-white sticky top-0 py-4 px-8 shadow-lg z-50">
-      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-[#bc9b24] to-[#ffd700]"></div>
-      <div className="flex flex-col items-center space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0 max-w-5xl mx-auto p-4">
-        {/* عنوان اصلی */}
-        <span className="text-3xl md:text-5xl font-extrabold uppercase text-[#bc9b24] text-center md:text-left">
-          پیشرفت
-        </span>
-
-        {/* متن‌های توضیحی */}
-        <div className="flex flex-col items-center space-y-4 md:flex-row md:gap-4 md:space-y-0">
-          <h1 className="text-sm md:text-lg font-bold uppercase text-green-500 text-center md:text-left">
-            برای موفقیت پایدار، اهداف روزانه بچین
-          </h1>
-          <h1 className="text-sm md:text-lg font-bold uppercase text-[#166c3a] text-center md:text-left">
-            لیست کن - انجامش بده - تیک بزن
-          </h1>
-        </div>
-      </div>
-    </header>
+    // <header className="w-full bg-[#041217] text-white sticky top-0 py-4 px-8 shadow-lg z-50">
+    <div className="flex flex-col items-center gap-4 md:flex-row md:justify-between md:items-center md:space-y-0 max-w-5xl mx-auto p-4">
+    {/* عنوان اصلی */}
+    <span className="text-3xl md:text-5xl font-extrabold uppercase text-[#bc9b24] text-center md:text-left">
+      پیشرفت
+    </span>
+  
+    {/* متن‌های توضیحی */}
+    <div className="flex flex-col items-center space-y-4 md:flex-row md:space-x-6 md:space-y-0">
+      <h1 className="text-sm md:text-lg font-bold uppercase text-green-500 text-center md:text-left">
+        برای موفقیت پایدار، اهداف روزانه بچین
+      </h1>
+      <h1 className="text-sm md:text-lg font-bold uppercase text-[#166c3a] text-center md:text-left">
+        لیست کن - انجامش بده - تیک بزن
+      </h1>
+    </div>
+  </div>
+    // </header>
   );
 };
 

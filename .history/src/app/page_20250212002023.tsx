@@ -31,7 +31,6 @@ async function Home() {
 const HeaderSection = () => {
   return (
     <header className="w-full text-white sticky top-0 py-4 px-8 shadow-lg z-50">
-      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-[#bc9b24] to-[#ffd700]"></div>
       <div className="flex flex-col items-center space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0 max-w-5xl mx-auto p-4">
         {/* عنوان اصلی */}
         <span className="text-3xl md:text-5xl font-extrabold uppercase text-[#bc9b24] text-center md:text-left">
