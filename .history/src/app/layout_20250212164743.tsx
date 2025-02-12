@@ -21,7 +21,7 @@ export default function RootLayout({
       <body
         className={vazir.className}
       >
-        <HeaderSection />
+        <HeaderSection  
         {children}
       </body>
     </html>

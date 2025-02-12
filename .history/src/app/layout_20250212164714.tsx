@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
-import { HeaderSection } from "./page";
 
 const vazir = Vazirmatn({ subset: ["arabic"]});
 
@@ -21,7 +20,7 @@ export default function RootLayout({
       <body
         className={vazir.className}
       >
-        <HeaderSection />
+        <HeaderSection
         {children}
       </body>
     </html>

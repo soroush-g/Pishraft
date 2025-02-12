@@ -5,7 +5,7 @@ import DeleteTodo from "./DeleteTodo";
 
 function Todo({ todo }: { todo: todoProps }) {
   return (
-    <div className="w-full bg-[#082631] shadow-lg border border-white/10 py-4 px-6 rounded-xl flex items-center justify-between transition-transform duration-300 hover:scale-[1.03]">
+    <div className="w-full bg-[#0e3e50] shadow-lg border border-white/10 py-4 px-6 rounded-xl flex items-center justify-between transition-transform duration-300 hover:scale-[1.03]">
       {/* تغییر وضعیت تسک */}
       <ChangeTodo todo={todo} />
 

@@ -14,8 +14,8 @@ async function Home() {
 
   return (
     <div className="w-screen min-h-screen py-20 flex flex-col items-center bg-[#030d11] text-white relative">
-    {/* عنوان و هدر */}
-    {/* <HeaderSection /> */}
+    عنوان و هدر
+    <HeaderSection />
     
     {/* بخش اضافه کردن تسک */}
     <div className="bg-white/10 backdrop-blur-md p-6 rounded-xl shadow-lg w-[90%] md:w-[50%] lg:w-[40%] border border-white/20 mt-6">
@@ -30,11 +30,11 @@ async function Home() {
 
 export const HeaderSection = () => {
   return (
-    <header className="w-full text-white bg-[#03110d] top-0 py-4 px-8 shadow-lg z-50">
+    <header className="w-full text-white top-0 py-4 px-8 shadow-lg z-50">
       <div className="flex flex-col items-center space-y-6 md:flex-row md:justify-between md:items-center md:space-y-0 max-w-5xl mx-auto p-4">
         {/* عنوان اصلی */}
         <span className="text-2xl md:text-5xl font-extrabold uppercase text-[#bc9b24] text-center md:text-left">
-          پیش بُرد
+          پیشرفت
         </span>
 
         {/* متن‌های توضیحی */}
